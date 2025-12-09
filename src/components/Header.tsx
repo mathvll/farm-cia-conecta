@@ -9,11 +9,13 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 group">
-          <img 
-            src={logo} 
-            alt="Farmácia Por Assinatura" 
-            className="h-12 object-contain group-hover:scale-105 transition-transform duration-300 rounded"
-          />
+          <div className="h-12 overflow-hidden rounded group-hover:scale-105 transition-transform duration-300">
+            <img 
+              src={logo} 
+              alt="Farmácia Por Assinatura" 
+              className="h-14 -my-1 object-cover"
+            />
+          </div>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

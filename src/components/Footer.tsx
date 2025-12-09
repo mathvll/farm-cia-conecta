@@ -11,11 +11,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <a href="/" className="flex items-center gap-2">
-              <img 
-                src={logo} 
-                alt="Farmácia Por Assinatura" 
-                className="h-12 object-contain rounded"
-              />
+              <div className="h-12 overflow-hidden rounded">
+                <img 
+                  src={logo} 
+                  alt="Farmácia Por Assinatura" 
+                  className="h-14 -my-1 object-cover"
+                />
+              </div>
             </a>
             <p className="text-background/70 text-sm">
               Sua farmácia delivery. Medicamentos na sua porta, com desconto e praticidade.
