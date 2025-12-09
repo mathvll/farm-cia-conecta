@@ -31,7 +31,7 @@ const Hero = () => {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
               Seus medicamentos{" "}
-              <span className="text-gradient">por assinatura</span>
+              <span className="text-gradient">entregues em casa</span>
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg">

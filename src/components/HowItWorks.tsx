@@ -5,26 +5,26 @@ const HowItWorks = () => {
     {
       icon: ClipboardList,
       step: "01",
-      title: "Escolha seu Plano",
-      description: "Selecione o plano que melhor atende às suas necessidades."
+      title: "Entre em Contato",
+      description: "Fale conosco pelo WhatsApp e informe o que você precisa."
     },
     {
       icon: Package,
       step: "02",
-      title: "Cadastre seus Medicamentos",
-      description: "Informe quais medicamentos você usa regularmente."
+      title: "Envie sua Receita",
+      description: "Envie a foto da sua receita médica de forma simples e rápida."
     },
     {
       icon: Truck,
       step: "03",
       title: "Receba em Casa",
-      description: "Entregamos seus remédios todo mês, na data que você escolher."
+      description: "Entregamos seus remédios no conforto do seu lar."
     },
     {
       icon: Smile,
       step: "04",
       title: "Cuide da sua Saúde",
-      description: "Nunca mais se preocupe em esquecer seus medicamentos."
+      description: "Aproveite os melhores preços e praticidade."
     }
   ];
 
