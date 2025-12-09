@@ -1,19 +1,19 @@
-import { Pill, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
+import logoIcon from "@/assets/logo-icon.png";
 
 const Header = () => {
-  const whatsappLink = "https://wa.me/5511999999999";
+  const whatsappLink = "https://wa.me/5541984848680";
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center shadow-soft group-hover:shadow-glow transition-shadow duration-300">
-            <Pill className="w-5 h-5 text-primary-foreground" />
-          </div>
-          <span className="text-lg font-bold text-foreground">
-            Farmácia <span className="text-gradient">Por Assinatura</span>
-          </span>
+          <img 
+            src={logoIcon} 
+            alt="Farmácia Por Assinatura" 
+            className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
