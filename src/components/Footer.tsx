@@ -13,8 +13,8 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center">
                 <Pill className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">
-                Farma<span className="text-primary">Club</span>
+              <span className="text-lg font-bold">
+                Farmácia <span className="text-primary">Por Assinatura</span>
               </span>
             </a>
             <p className="text-background/70 text-sm">
@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="border-t border-background/10 pt-8 text-center">
           <p className="text-background/50 text-sm">
-            © {currentYear} FarmaClub. Todos os direitos reservados.
+            © {currentYear} Farmácia Por Assinatura. Todos os direitos reservados.
           </p>
         </div>
       </div>

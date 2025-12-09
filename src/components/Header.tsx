@@ -11,8 +11,8 @@ const Header = () => {
           <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center shadow-soft group-hover:shadow-glow transition-shadow duration-300">
             <Pill className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-bold text-foreground">
-            Farma<span className="text-gradient">Club</span>
+          <span className="text-lg font-bold text-foreground">
+            Farmácia <span className="text-gradient">Por Assinatura</span>
           </span>
         </a>
 
