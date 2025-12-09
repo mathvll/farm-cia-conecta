@@ -1,5 +1,5 @@
 import { MapPin, Phone, MessageCircle, Instagram, Facebook } from "lucide-react";
-import logoIcon from "@/assets/logo-icon.png";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="space-y-4">
             <a href="/" className="flex items-center gap-2">
               <img 
-                src={logoIcon} 
+                src={logo} 
                 alt="Farmácia Por Assinatura" 
-                className="w-12 h-12 object-contain"
+                className="h-10 object-contain rounded"
               />
             </a>
             <p className="text-background/70 text-sm">

@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
-import logoIcon from "@/assets/logo-icon.png";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const whatsappLink = "https://wa.me/5541984848680";
@@ -10,9 +10,9 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 group">
           <img 
-            src={logoIcon} 
+            src={logo} 
             alt="Farmácia Por Assinatura" 
-            className="w-12 h-12 object-contain group-hover:scale-105 transition-transform duration-300"
+            className="h-10 object-contain group-hover:scale-105 transition-transform duration-300 rounded"
           />
         </a>
 
