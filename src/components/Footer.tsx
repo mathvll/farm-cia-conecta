@@ -1,4 +1,4 @@
-import { Pill, MapPin, Phone, Mail, MessageCircle, Instagram, Facebook } from "lucide-react";
+import { Pill, MapPin, Phone, MessageCircle, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -50,15 +50,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-background/70 text-sm">
                 <MapPin className="w-4 h-4 text-primary" />
-                São Paulo, SP - Brasil
+                Rua Teodoro Augustyn, 368 - Campo Largo
               </li>
               <li className="flex items-center gap-2 text-background/70 text-sm">
                 <Phone className="w-4 h-4 text-primary" />
-                (11) 99999-9999
-              </li>
-              <li className="flex items-center gap-2 text-background/70 text-sm">
-                <Mail className="w-4 h-4 text-primary" />
-                contato@farmaclub.com.br
+                (41) 98484-8680
               </li>
             </ul>
           </div>
@@ -68,7 +64,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Redes Sociais</h4>
             <div className="flex gap-3">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5541984848680"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-[#25D366] transition-colors"
