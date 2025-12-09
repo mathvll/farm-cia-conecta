@@ -1,4 +1,5 @@
-import { Pill, MapPin, Phone, MessageCircle, Instagram, Facebook } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Instagram, Facebook } from "lucide-react";
+import logoIcon from "@/assets/logo-icon.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,12 +11,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <a href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center">
-                <Pill className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-bold">
-                Farmácia <span className="text-primary">Por Assinatura</span>
-              </span>
+              <img 
+                src={logoIcon} 
+                alt="Farmácia Por Assinatura" 
+                className="w-12 h-12 object-contain"
+              />
             </a>
             <p className="text-background/70 text-sm">
               Sua farmácia delivery. Medicamentos na sua porta, com desconto e praticidade.
