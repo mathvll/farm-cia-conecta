@@ -14,7 +14,7 @@ const Footer = () => {
               <img 
                 src={logo} 
                 alt="Farmácia Por Assinatura" 
-                className="h-10 object-contain rounded"
+                className="h-12 object-contain rounded"
               />
             </a>
             <p className="text-background/70 text-sm">

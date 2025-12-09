@@ -12,7 +12,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="Farmácia Por Assinatura" 
-            className="h-10 object-contain group-hover:scale-105 transition-transform duration-300 rounded"
+            className="h-12 object-contain group-hover:scale-105 transition-transform duration-300 rounded"
           />
         </a>
 
