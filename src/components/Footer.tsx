@@ -18,7 +18,7 @@ const Footer = () => {
               </span>
             </a>
             <p className="text-background/70 text-sm">
-              Sua farmácia por assinatura. Medicamentos na sua porta, todo mês, com desconto e praticidade.
+              Sua farmácia delivery. Medicamentos na sua porta, com desconto e praticidade.
             </p>
           </div>
 
@@ -29,11 +29,6 @@ const Footer = () => {
               <li>
                 <a href="#beneficios" className="text-background/70 hover:text-primary transition-colors text-sm">
                   Benefícios
-                </a>
-              </li>
-              <li>
-                <a href="#planos" className="text-background/70 hover:text-primary transition-colors text-sm">
-                  Planos
                 </a>
               </li>
               <li>

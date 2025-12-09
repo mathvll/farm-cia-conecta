@@ -29,8 +29,8 @@ const Benefits = () => {
     },
     {
       icon: RefreshCw,
-      title: "Renovação Automática",
-      description: "Nunca mais esqueça de comprar seus medicamentos."
+      title: "Pedido Recorrente",
+      description: "Facilidade para repetir seus pedidos quando precisar."
     }
   ];
 
