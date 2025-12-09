@@ -29,7 +29,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="como-funciona" className="py-24 bg-gradient-to-b from-background to-secondary/30 relative overflow-hidden">
+    <section id="como-funciona" className="py-32 bg-gradient-to-b from-background to-secondary/30 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">

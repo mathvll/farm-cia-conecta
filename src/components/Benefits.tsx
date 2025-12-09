@@ -35,7 +35,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section id="beneficios" className="py-24 bg-secondary/50 relative overflow-hidden">
+    <section id="beneficios" className="py-32 bg-secondary/50 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl" />
@@ -46,7 +46,7 @@ const Benefits = () => {
             Vantagens
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Por que escolher o <span className="text-gradient">FarmaClub</span>?
+            Por que escolher a <span className="text-gradient">Farmácia Por Assinatura</span>?
           </h2>
           <p className="text-muted-foreground text-lg">
             Mais do que uma farmácia, somos seu parceiro de saúde.
