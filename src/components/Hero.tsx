@@ -1,8 +1,10 @@
 import { Button } from "./ui/button";
-import { Check, Truck, Shield } from "lucide-react";
+import { Check, Truck, Shield, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-pharmacy.jpg";
 
 const Hero = () => {
+  const whatsappLink = "https://wa.me/5511999999999";
+
   const highlights = [
     "Entrega mensal garantida",
     "Descontos exclusivos",
@@ -16,7 +18,7 @@ const Hero = () => {
       
       {/* Decorative circles */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -38,13 +40,12 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="group">
-                <Truck className="w-5 h-5 transition-transform group-hover:-translate-x-1" />
-                Começar Agora
-              </Button>
-              <Button variant="outline" size="lg">
-                Ver Planos
-              </Button>
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                <Button variant="hero" size="lg" className="group gap-2 w-full sm:w-auto">
+                  <MessageCircle className="w-5 h-5 transition-transform group-hover:scale-110" />
+                  Fale com um Especialista
+                </Button>
+              </a>
             </div>
 
             <div className="flex flex-wrap gap-6 pt-4">
