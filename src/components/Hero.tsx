@@ -5,7 +5,6 @@ const Hero = () => {
   const whatsappLink = "https://wa.me/5511999999999";
 
   const highlights = [
-    "Entrega mensal garantida",
     "Descontos exclusivos",
     "Atendimento 24h"
   ];
@@ -13,7 +12,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen pt-16 pb-24 flex items-center overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/65 via-primary/40 to-accent/60" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/65 via-primary/30 to-background" />
       
       {/* Decorative circles */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
@@ -46,11 +45,11 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-6 pt-4">
+            <div className="flex flex-wrap justify-center gap-8 pt-4">
               {highlights.map((item) => (
-                <div key={item} className="flex items-center gap-2 text-muted-foreground">
-                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Check className="w-3 h-3 text-primary" />
+                <div key={item} className="flex items-center gap-2 text-foreground">
+                  <div className="w-6 h-6 rounded-full bg-white shadow-sm flex items-center justify-center">
+                    <Check className="w-4 h-4 text-primary" />
                   </div>
                   <span className="text-sm font-medium">{item}</span>
                 </div>
