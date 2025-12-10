@@ -18,11 +18,11 @@ const Header = () => {
           </div>
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
-          <a href="#beneficios" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+        <nav className="hidden md:flex items-center gap-4">
+          <a href="#beneficios" className="px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-sm transition-all duration-300 hover:bg-background hover:text-foreground">
             Benefícios
           </a>
-          <a href="#como-funciona" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+          <a href="#como-funciona" className="px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-sm transition-all duration-300 hover:bg-background hover:text-foreground">
             Como Funciona
           </a>
         </nav>
