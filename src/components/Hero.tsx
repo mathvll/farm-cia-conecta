@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen pt-16 pb-24 flex items-center overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/15" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/40 via-primary/15 to-accent/35" />
       
       {/* Decorative circles */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
