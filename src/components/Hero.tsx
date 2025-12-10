@@ -40,7 +40,7 @@ const Hero = () => {
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button variant="hero" size="lg" className="group gap-2 w-full sm:w-auto">
                   <MessageCircle className="w-5 h-5 transition-transform group-hover:scale-110" />
-                  Fale com um Especialista
+                  Fale com a farmácia
                 </Button>
               </a>
             </div>
