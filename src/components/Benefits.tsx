@@ -42,8 +42,8 @@ const Benefits = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-            Vantagens
+          <span className="inline-block px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium mb-4 shadow-sm transition-all duration-300 hover:bg-background hover:text-foreground cursor-default">
+            Benefícios
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Por que escolher a <span className="text-gradient">Farmácia Por Assinatura</span>?
