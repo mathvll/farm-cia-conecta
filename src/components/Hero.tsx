@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 import { Check, Shield, MessageCircle } from "lucide-react";
 
 const Hero = () => {
-  const whatsappLink = "https://wa.me/5511999999999";
+  const whatsappLink = "https://wa.me/5541984848680";
 
   const highlights = [
     "Descontos exclusivos",
